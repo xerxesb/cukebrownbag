@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
+using Notepad.Services;
 using Notepad.ViewModels;
 
 namespace Notepad
@@ -15,7 +11,10 @@ namespace Notepad
     {
         private void ApplicationStartUp(object sender, StartupEventArgs e)
         {
-            var notepadViewModel = new NotepadViewModel();
+            var spellChecker = new SpellChecker();
+
+            var notepadViewModel = new NotepadViewModel(spellChecker);
+
             var notepadView = new NotepadView(notepadViewModel);
 
             notepadView.Show();
