@@ -1,0 +1,91 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="5" />
+      <Item value="void" priority="4" />
+      <Item value="new" priority="4" />
+      <Item value="SpellCheckerService" priority="3" />
+      <Item value="using" priority="0" />
+      <Item value="Notepad" priority="0" />
+      <Item value="Services" priority="0" />
+      <Item value="ISpellCheckerService`0" priority="0" />
+      <Item value="INetspellSpellChecker`0" priority="1" />
+      <Item value="_netspellSpellChecker" priority="1" />
+      <Item value="protected" priority="0" />
+      <Item value="T`0" priority="0" />
+      <Item value="TestFor" priority="2" />
+      <Item value="SpellCheckerService`0" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="_spellCheckerService" priority="0" />
+      <Item value="_mockNetspellSpellChecker" priority="1" />
+      <Item value="_sut" priority="0" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="_notepadViewModel" priority="1" />
+      <Item value="string" priority="0" />
+      <Item value="TechTalk" priority="0" />
+      <Item value="SpecFlow" priority="0" />
+      <Item value="BeforeScenario" priority="0" />
+      <Item value="netspellSpellChecker" priority="0" />
+      <Item value="content" priority="0" />
+      <Item value="PerformSpellCheckCommand" priority="0" />
+      <Item value="CommandBinding`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.MockRepository">
+      <Item value="GenerateMock`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Notepad.Services.ISpellCheckerService">
+      <Item value="CheckSpelling`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Notepad.Services.INetspellSpellChecker">
+      <Item value="AssertWasCalled`1" priority="1" />
+      <Item value="CheckSpelling`0" priority="2" />
+      <Item value="ShowDialog" priority="1" />
+      <Item value="Stub`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="IgnoreArguments`0" priority="0" />
+      <Item value="Return`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheck.feature" caret="265" fromTop="7" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1157" fromTop="34" />
+      <File id="F2911132-55E7-46FE-AB01-C3DC51500DB1/d:ViewModels/f:NotepadViewModel.cs" caret="389" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1387" fromTop="13" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="98" fromTop="0" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1011" fromTop="18" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheck.feature" caret="265" fromTop="7" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1183" fromTop="32" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="641" fromTop="18" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="416" fromTop="13" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="723" fromTop="22" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="976" fromTop="28" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1345" fromTop="34" />
+      <File id="23291C01-8C8E-4963-8C16-73CDABC58A58/d:features/d:SpellCheck/f:SpellCheckSteps.cs" caret="1157" fromTop="34" />
+      <File id="F2911132-55E7-46FE-AB01-C3DC51500DB1/d:ViewModels/f:NotepadViewModel.cs" caret="372" fromTop="12" />
+      <File id="F2911132-55E7-46FE-AB01-C3DC51500DB1/d:ViewModels/f:NotepadViewModel.cs" caret="311" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

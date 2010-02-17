@@ -5,5 +5,6 @@
 
 Scenario: Checking Spelling of content
 	Given I have entered "Hello"
-	When I press the Spell Check button
+	And the content is valid
+	When I perform a spell check
 	Then the result should show there were no errors

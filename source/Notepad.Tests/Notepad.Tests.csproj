@@ -12,6 +12,7 @@
     <AssemblyName>Notepad.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,6 +40,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dependencies\nunit\bin\net-2.0\framework\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="Rhino.Mocks">
       <HintPath>..\..\dependencies\rhinomocks\Rhino.Mocks.dll</HintPath>
     </Reference>
@@ -53,18 +56,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="features\SpellCheck.feature.cs">
+    <Compile Include="features\SpellCheck\SpellCheck.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SpellCheck.feature</DependentUpon>
     </Compile>
+    <Compile Include="features\SpellCheck\SpellCheckSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\Services\SpellCheckerServiceTests\WhenCheckingSpelling.cs" />
     <Compile Include="Tests\TestFor.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="features\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Notepad\Notepad.csproj">
       <Project>{F2911132-55E7-46FE-AB01-C3DC51500DB1}</Project>
@@ -72,7 +74,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="features\SpellCheck.feature">
+    <None Include="features\cucumber.wire" />
+    <None Include="features\SpellCheck\SpellCheck.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SpellCheck.feature.cs</LastGenOutput>
     </None>

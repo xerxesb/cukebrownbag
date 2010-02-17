@@ -10,7 +10,7 @@ namespace Notepad.Services
             var spelling = new Spelling();
             spelling.ShowDialog = ShowDialog;
 
-            return spelling.SpellCheck(content);
+            return !spelling.SpellCheck(content);
         }
 
         public bool ShowDialog { get; set; }

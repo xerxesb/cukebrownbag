@@ -9,11 +9,12 @@ namespace Notepad.Services
         public SpellCheckerService(INetspellSpellChecker netspellSpellChecker)
         {
             _netspellSpellChecker = netspellSpellChecker;
+            _netspellSpellChecker.ShowDialog = false;
         }
 
         public bool CheckSpelling(string content)
         {
-            throw new Exception();
+            return _netspellSpellChecker.CheckSpelling(content);
         }
     }
 }

@@ -15,7 +15,10 @@
     </Window.Resources>
 
     <StackPanel>
-        <Button Content="Perform Spell Check"/>
-        <TextBox TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+        <WrapPanel Orientation="Horizontal">
+            <Button Content="Perform Spell Check" Command="{Binding PerformSpellCheckCommand}" />
+            <TextBlock Text="{Binding SpellCheckResult}" />
+        </WrapPanel>
+        <TextBox TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding Content}"></TextBox>
     </StackPanel>
 </Window>
