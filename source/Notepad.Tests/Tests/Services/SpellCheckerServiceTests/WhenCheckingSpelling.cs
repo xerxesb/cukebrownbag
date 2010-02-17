@@ -1,3 +1,4 @@
+using System;
 using Notepad.Services;
 using NUnit.Framework;
 using Rhino.Mocks;

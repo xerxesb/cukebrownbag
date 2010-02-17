@@ -1,7 +1,7 @@
-﻿using System;
-using NetSpell.SpellChecker;
+﻿using NetSpell.SpellChecker;
+using Notepad.Services;
 
-namespace Notepad.Services
+namespace Notepad.Wrappers
 {
     public class NetspellSpellChecker : INetspellSpellChecker
     {

@@ -1,12 +1,10 @@
 ﻿using System.Windows;
 using Notepad.Services;
 using Notepad.ViewModels;
+using Notepad.Wrappers;
 
-namespace Notepad
+namespace Notepad.Views
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
         private void ApplicationStartUp(object sender, StartupEventArgs e)
@@ -21,3 +19,5 @@ namespace Notepad
         }
     }
 }
+
+

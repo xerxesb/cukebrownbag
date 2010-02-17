@@ -1,11 +1,8 @@
 ﻿using System.Windows;
 using Notepad.ViewModels;
 
-namespace Notepad
+namespace Notepad.Views
 {
-    /// <summary>
-    /// Interaction logic for NotepadView.xaml
-    /// </summary>
     public partial class NotepadView : Window
     {
         public NotepadView()
@@ -19,3 +16,5 @@ namespace Notepad
         }
     }
 }
+
+
