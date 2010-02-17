@@ -5,7 +5,7 @@ namespace Notepad.ViewModels
 {
     public class NotepadViewModel : INotepadViewModel
     {
-        public NotepadViewModel(ISpellChecker spellChecker)
+        public NotepadViewModel(ISpellCheckerService netspellSpellChecker)
         {
         }
     }

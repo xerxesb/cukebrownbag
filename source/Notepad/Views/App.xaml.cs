@@ -11,7 +11,7 @@ namespace Notepad
     {
         private void ApplicationStartUp(object sender, StartupEventArgs e)
         {
-            var spellChecker = new SpellChecker();
+            var spellChecker = new SpellCheckerService(new NetspellSpellChecker());
 
             var notepadViewModel = new NotepadViewModel(spellChecker);
 

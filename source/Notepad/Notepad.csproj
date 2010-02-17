@@ -62,8 +62,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Services\ISpellChecker.cs" />
-    <Compile Include="Services\SpellChecker.cs" />
+    <Compile Include="Services\ISpellCheckerService.cs" />
+    <Compile Include="Services\SpellCheckerService.cs" />
+    <Compile Include="Wrappers\INetspellSpellChecker.cs" />
+    <Compile Include="Wrappers\NetspellSpellChecker.cs" />
     <Compile Include="ViewModels\INotepadViewModel.cs" />
     <Compile Include="ViewModels\NotepadViewModel.cs" />
     <Compile Include="Views\App.xaml.cs">

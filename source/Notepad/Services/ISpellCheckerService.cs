@@ -1,6 +1,6 @@
 namespace Notepad.Services
 {
-    public interface ISpellChecker
+    public interface ISpellCheckerService
     {
         bool CheckSpelling(string content);
     }
